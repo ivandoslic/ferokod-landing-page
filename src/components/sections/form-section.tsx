@@ -149,7 +149,7 @@ export default function FormSection() {
             `}
             id="kontakt"
             name="kontakt-forma"
-            netlify
+            data-netlify="true"
           >
             {[
               { id: "name", label: "Ime i prezime", type: "text" },
