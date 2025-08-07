@@ -148,10 +148,7 @@ export default function FormSection() {
               after:bg-[linear-gradient(180deg,rgba(241,90,36,0.8),transparent,rgba(241,90,36,0.3))]
             `}
             id="kontakt"
-            onSubmit={(e) => {
-              e.preventDefault();
-              // TODO: handle form submission
-            }}
+            name="kontakt-forma"
             netlify
           >
             {[
