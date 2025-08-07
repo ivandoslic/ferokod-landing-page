@@ -152,6 +152,7 @@ export default function FormSection() {
               e.preventDefault();
               // TODO: handle form submission
             }}
+            netlify
           >
             {[
               { id: "name", label: "Ime i prezime", type: "text" },
